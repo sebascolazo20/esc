@@ -1,0 +1,28 @@
+{
+  "Cursos": [
+    {
+      "id": 1,
+      "nombre": "Curso de Programación",
+      "imagen": "Tecnologia.jpeg",
+      "categoriaIds": [1],
+      "duracion": "3 meses",
+      "cargaHoraria": "120 horas",
+      "diasHorarios": "Lunes y Miércoles de 18:00 a 21:00",
+      "fechaInicio": "2025-03-01",
+      "lugar": "Aula 5, Edificio B",
+      "descripcion": "Aprende los fundamentos de la programación en este curso completo."
+    },
+    {
+      "id": 2,
+      "nombre": "Curso de Carpintería",
+      "imagen": "Herreria.jpeg",
+      "categoriaIds": [2],
+      "duracion": "2 meses",
+      "cargaHoraria": "80 horas",
+      "diasHorarios": "Martes y Jueves de 10:00 a 14:00",
+      "fechaInicio": "2025-04-10",
+      "lugar": "Taller 3, Planta Baja",
+      "descripcion": "Curso práctico para iniciarse en el oficio de carpintería."
+    }
+  ]
+}

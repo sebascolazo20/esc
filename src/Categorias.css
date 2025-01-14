@@ -1,0 +1,168 @@
+/* Estilo base */
+body {
+    background-color: #f1f1f1; /* Gris muy suave */
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Contenedor de las categorías */
+  .categorias-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 67px; /* Espacio para el nav */
+    padding-bottom: 67px; /* Espacio para el footer */
+    flex-grow: 1;
+  }
+  
+  /* Título de las categorías */
+  .categorias-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #5a5a5a;
+    font-weight: 500;
+  }
+  
+  /* Galería de categorías */
+  .categorias-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas en escritorio */
+    gap: 20px;
+    max-width: 80%;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  /* Tarjetas de categoría */
+  .categoria-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .categoria-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagen de la categoría */
+  .categoria-image {
+    width: 100%;
+    height: 100%; /* Asegura que ocupe todo el alto de la tarjeta */
+    object-fit: cover; /* La imagen se recorta para llenar el espacio sin deformarse */
+    border-radius: 2px;
+  }
+  
+  /* Fondo y nombre de la categoría (Ahora blanco con texto negro) */
+  .categoria-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff; /* Fondo blanco */
+    color: black; /* Texto negro */
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0 0 2px 2px;
+  }
+  
+  /* Efecto Hover */
+  .categoria-card:hover .categoria-image {
+    transform: scale(1.05);
+  }
+  
+  /* Tarjetas de cursos */
+  .card-curso {
+    width: 250px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card-curso:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-curso img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+  }
+  
+  .card-curso .contenido {
+    padding: 10px;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-curso .nombre {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 5%;
+  }
+  
+  .card-curso .fecha {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Botón de volver */
+  .volver-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .volver-btn:hover {
+    background-color: #003d82;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1024px) {
+    .categorias-gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .categorias-gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .categorias-gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+  

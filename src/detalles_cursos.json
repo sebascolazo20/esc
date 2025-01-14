@@ -1,0 +1,54 @@
+[
+    {
+      "id": 1,
+      "duracion": "3 meses",
+      "cargaHoraria": "100 horas",
+      "diasHorarios": "Lunes y Miércoles, 18:00 - 21:00",
+      "lugar": "Aula 3, Campus Central",
+      "descripcion": "Este curso te enseñará las mejores prácticas para desarrollar sitios web modernos.",
+      "alFinalizar": [
+        "Desarrollar sitios web responsivos",
+        "Utilizar tecnologías como HTML, CSS y JavaScript",
+        "Implementar frameworks populares"
+      ],
+      "requisitos": [
+        "Conocimiento básico de computación",
+        "Interés en la programación web"
+      ]
+    },
+    {
+      "id": 2,
+      "duracion": "2 meses",
+      "cargaHoraria": "80 horas",
+      "diasHorarios": "Martes y Jueves, 19:00 - 22:00",
+      "lugar": "Aula 4, Campus Central",
+      "descripcion": "Aprende a diseñar interfaces atractivas y fáciles de usar para aplicaciones.",
+      "alFinalizar": [
+        "Diseñar interfaces de usuario efectivas",
+        "Crear prototipos interactivos",
+        "Aplicar principios de usabilidad"
+      ],
+      "requisitos": [
+        "Conocimiento básico de diseño gráfico",
+        "Interés por la experiencia del usuario"
+      ]
+    },
+    {
+      "id": 3,
+      "duracion": "4 meses",
+      "cargaHoraria": "120 horas",
+      "diasHorarios": "Viernes, 16:00 - 20:00",
+      "lugar": "Aula 5, Campus Central",
+      "descripcion": "Domina las estrategias de marketing digital para promover productos o servicios en línea.",
+      "alFinalizar": [
+        "Desarrollar campañas publicitarias efectivas",
+        "Utilizar herramientas como Google Ads y Facebook Ads",
+        "Analizar métricas y resultados"
+      ],
+      "requisitos": [
+        "Conocimiento básico de marketing",
+        "Interés por el análisis de datos"
+      ]
+    }
+  ]
+  

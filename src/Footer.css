@@ -1,0 +1,59 @@
+/* Estilo global del footer */
+.footer {
+  background-color: #007bff;
+  color: #333;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0; /* Esto asegura que el footer no se haga más pequeño */
+}
+
+/* Enlaces del footer */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+/* Redes sociales del footer */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.footer-socials a {
+  font-size: 1.5em;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+/* Derechos de autor */
+.footer-copy {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #fafafa;
+}
+
+
+
+/* Para pantallas más pequeñas, ajustamos el diseño */
+@media (max-width: 1024px) {
+  .footer-links, .footer-socials {
+      flex-direction: column; /* Ponemos los iconos y links uno debajo del otro */
+  }
+
+  .footer-copy {
+      margin-top: 10px;
+  }
+}

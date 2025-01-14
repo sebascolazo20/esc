@@ -1,0 +1,40 @@
+{
+  "Categorias": [
+    {
+      "id": 1,
+      "nombre": "Tecnología", 
+      "imagen": "Tecnologia.jpeg"
+      
+    },
+    {
+      "id": 2,
+      "nombre": "Construcción",
+      "imagen": "Construccion.jpeg"
+    },
+    {
+      "id": 3,
+      "nombre": "Herrería",
+      "imagen": "Herreria.jpeg"
+    },
+    {
+      "id": 4,
+      "nombre": "Administración",
+      "imagen": "Administracion.jpeg"
+    },
+    {
+      "id": 5,
+      "nombre": "Comunicación",
+      "imagen": "Comunicacion.jpeg"
+    },
+    {
+      "id": 6,
+      "nombre": "Negocios",
+      "imagen": "Negocios.jpeg"
+    },
+    {
+      "id": 7,
+      "nombre": "Salud",
+      "imagen": "Salud.jpeg"
+    }
+  ]
+}
